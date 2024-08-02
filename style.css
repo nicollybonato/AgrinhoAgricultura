@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* cor de fundo geral */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* fundo do container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #4CAF50; /* mesma cor que o rodapé */
+    padding: 10px 0;
+}
+
+header h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0f0f0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.text-box {
+    padding: 20px;
+    background-color: #d9f6e1; /* fundo verde para caixas de texto */
+    border-radius: 8px;
+}
+
+.text-box h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    color: #666;
+    font-size: 16px;
+}
+
+.image-box {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #4CAF50; /* mesma cor que o cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 10px 0; /* Espaço interno do rodapé */
+    position: relative; /* Ajuste para que não fique fixo no fundo */
+    margin-top: 20px;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px; /* Tamanho menor */
+}
+
+
